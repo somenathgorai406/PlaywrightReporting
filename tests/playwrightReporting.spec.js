@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test.only('Playwright Reporting', async ({ page }) => {
+test('Playwright Reporting', async ({ page }) => {
     await page.goto('https://www.google.com');
 
     //Assertion
